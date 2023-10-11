@@ -246,6 +246,15 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop:true
   });
+ 
+ let navbar= document.querySelector('header nav');
+
+document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.toggle('active');
+}
+window.onscroll = () =>{
+    navbar.classList.remove('active');
+}
 </script>
     </body>
 </html>

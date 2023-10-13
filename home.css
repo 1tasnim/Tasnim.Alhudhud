@@ -26,7 +26,6 @@ nav{
   }
 .img{
     width: 85px;
-    height: 85px;
     cursor: pointer;
     border-radius: 64px;
 }
@@ -217,7 +216,6 @@ padding-bottom:  0px;
 }
 .simg{
     width: 0.7em;
-    height: 89.27px;
     cursor: pointer;
     padding-bottom: 40px;
 }
@@ -363,6 +361,12 @@ padding-bottom:  0px;
         padding: 0px 66px;
         margin: 0;
     }
+    .simg{
+    height: 89.27px;
+    }
+    .img{
+    height: 85px;
+}
   }
   
   @media (max-width:768px){
